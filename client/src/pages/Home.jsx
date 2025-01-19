@@ -23,9 +23,9 @@ const Home = () => {
                     </motion.div>
                     <motion.div className='flex flex-col gap-5' {...headContentAnimation}>
                         <p className='max-w-md font-normal text-gray-600 text-base'>
-                        Where AI Meets Creativity — Design Your Perfect T-Shirt with our brand-new 3D
-                        customization tool. <strong>Unleash your imagination</strong>{" "} and define 
-                        your own style.
+                            Where AI meets creativity—design your perfect T-shirt with our brand-new 3D 
+                            customization tool. <strong>Unleash your imagination</strong> and define 
+                            your unique style.
                         </p>
 
                         <CustomButton 
