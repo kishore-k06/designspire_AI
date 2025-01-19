@@ -8,12 +8,10 @@ import State from '../store';
 
 const Shirt = () => {
   const snap = useSnapshot(State);
-  const { nodes, materials } = useGLTF('/shirt_baked.glb');
+  const { nodes, materials } = useGLx('/shirt_baked.glb');
 
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
-
-  useFrame((state, delta) => easing.dampC(materials.lambert1.color, snap.color, 0.25, delta));
 
   return (
     <group>
